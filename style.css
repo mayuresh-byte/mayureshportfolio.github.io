@@ -300,7 +300,7 @@ section .title::after{
 /* skills section styling */
 
 
-.skills .skills-content .column{
+/* .skills .skills-content .column{
     width: calc(50% - 30px);
 }
 .skills .skills-content .left .text{
@@ -368,7 +368,39 @@ section .title::after{
 }
 .skills-content .right .mysql::before{
     width: 70%;
+} */
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
 }
+
+.skill {
+    text-align: center;
+    flex-basis: 120px;
+}
+
+.skill i {
+    font-size: 50px;
+}
+
+.skill p {
+    margin-top: 10px;
+    color: #333;
+    font-weight: bold;
+}
+
+#cpp {
+    height: 50px;
+    width: 50px;
+}
+
+#cont1 {
+    margin-bottom: 20px;
+}
+
 
 /* teams section styling */
 
